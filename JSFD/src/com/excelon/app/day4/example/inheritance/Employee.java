@@ -12,7 +12,7 @@ public class Employee {
 	}
   // Argument Constructor
 	public Employee(int empNO, String empName, double salary) {
-		
+		// super();
 		this.empNO = empNO;
 		this.empName = empName;
 		this.salary = salary;

@@ -1,0 +1,13 @@
+package com.excelon.app.day5.example.overriding;
+
+public class B extends A{
+	
+	@Override
+	public void show() {
+		
+		// displays show() method of super class (Class A)
+		super.show();
+		
+		System.out.println("show() method - Class B");
+	}
+}
